@@ -1,4 +1,5 @@
 /* Flexbox Part 1 */
+/* It styles a list to be a flex container with centered items, no list markers, and no padding or margin.*/
 #flex-section1 ul {
     display: flex;
 	list-style: none;
@@ -12,6 +13,7 @@
 
 
 /* Flexbox Part 2 */
+/* It sets the unordered list inside the #flex-section2 element to use flexbox layout with no margin or padding*/
 
 #flex-section2 ul {
 	display: flex;
@@ -19,6 +21,8 @@
 	padding: 0;
 
 }
+
+/* It removes the default list styling and makes each list item inside #flex-section2 equally flexible.*/
 
 #flex-section2 li {
 	list-style: none;
