@@ -52,6 +52,7 @@
 	align-items: center;
 	padding: 35%;
 }
+/* It styles a list to remove bullet points, display items in a flexible row that wraps, and removes default margins and padding*/
 
 #flex-section3 .tags ul {
 	list-style: none;
@@ -79,8 +80,7 @@
 
 
 /* Grid Part 2 */
-
-  
+/* This CSS code makes .gridboxblue span 3 rows from the first row and 3 columns from the second column, with a stacking order of 2*/
 #grid-section2 .gridboxblue {
 	grid-row: 1 / span 3;
 	grid-column: 2 / span 3;
@@ -140,6 +140,7 @@
 	transition: background-color 3s ease, color 3s ease;
 
 }
+/*This CSS code smoothly changes the background and text color of links on hover over 0.5 seconds.*/
 
 #transition-section .box a:hover {
 	background-color: #cc0000;
